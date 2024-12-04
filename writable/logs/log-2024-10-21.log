@@ -1,0 +1,116 @@
+CRITICAL - 2024-10-21 15:21:42 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: GET, Route: usuarios/6/delete]
+in SYSTEMPATH\BaseModel.php on line 1833.
+ 1 SYSTEMPATH\BaseModel.php(1833): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(997): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\UsuarioController.php(87): CodeIgniter\Model->update('6')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsuarioController->delete('6')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-21 15:22:32 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: GET, Route: usuarios/6/delete]
+in SYSTEMPATH\BaseModel.php on line 1833.
+ 1 SYSTEMPATH\BaseModel.php(1833): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(997): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\UsuarioController.php(87): CodeIgniter\Model->update('6')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsuarioController->delete('6')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-21 15:22:55 --> BadMethodCallException: Call to undefined method App\Models\UsuarioModel::delte
+[Method: GET, Route: usuarios/6/delete]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\UsuarioController.php(87): CodeIgniter\Model->__call('delte', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsuarioController->delete('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-21 15:23:37 --> BadMethodCallException: Call to undefined method App\Models\UsuarioModel::delte
+[Method: GET, Route: usuarios/6/delete]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\UsuarioController.php(87): CodeIgniter\Model->__call('delte', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsuarioController->delete('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-21 15:23:49 --> BadMethodCallException: Call to undefined method App\Models\UsuarioModel::delte
+[Method: GET, Route: usuarios/6/delete]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\UsuarioController.php(87): CodeIgniter\Model->__call('delte', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsuarioController->delete('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-21 15:24:26 --> BadMethodCallException: Call to undefined method App\Models\UsuarioModel::delte
+[Method: GET, Route: usuarios/6/delete]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\UsuarioController.php(87): CodeIgniter\Model->__call('delte', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsuarioController->delete('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-21 15:24:27 --> BadMethodCallException: Call to undefined method App\Models\UsuarioModel::delte
+[Method: GET, Route: usuarios/6/delete]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\UsuarioController.php(87): CodeIgniter\Model->__call('delte', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsuarioController->delete('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-21 15:24:28 --> BadMethodCallException: Call to undefined method App\Models\UsuarioModel::delte
+[Method: GET, Route: usuarios/6/delete]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\UsuarioController.php(87): CodeIgniter\Model->__call('delte', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsuarioController->delete('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-21 15:24:28 --> BadMethodCallException: Call to undefined method App\Models\UsuarioModel::delte
+[Method: GET, Route: usuarios/6/delete]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\UsuarioController.php(87): CodeIgniter\Model->__call('delte', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsuarioController->delete('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-21 15:24:28 --> BadMethodCallException: Call to undefined method App\Models\UsuarioModel::delte
+[Method: GET, Route: usuarios/6/delete]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\UsuarioController.php(87): CodeIgniter\Model->__call('delte', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsuarioController->delete('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-21 15:25:03 --> BadMethodCallException: Call to undefined method App\Models\UsuarioModel::delte
+[Method: GET, Route: usuarios/6/delete]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\UsuarioController.php(87): CodeIgniter\Model->__call('delte', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsuarioController->delete('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuarioController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

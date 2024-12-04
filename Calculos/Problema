@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form method="POST">
+  Número 1: <input type="number" name="num1" required><br><br>
+  Número 2: <input type="number" name="num2" required><br><br>
+  <input type="submit" value="Calcular">
+</form>
+
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $num1 = $_POST['num1'];
+    $num2 = $_POST['num2'];
+    
+    function calculadora($num1, $num2) {
+        echo "Suma: " . ($num1 + $num2) . "<br>";
+        echo "Resta: " . ($num1 - $num2) . "<br>";
+        echo "Multiplicacion: " . ($num1 * $num2) . "<br>";
+        
+        if ($num2 != 0) {
+            echo "Division: " . ($num1 / $num2) . "<br>";
+        } else {
+            echo "Error: Division por cero<br>";
+        }
+    }
+
+    calculadora($num1, $num2);
+}
+?>
+
+</body>
+</html>
