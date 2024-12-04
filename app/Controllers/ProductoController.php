@@ -4,95 +4,82 @@ namespace App\Controllers;
 
 use App\Models\ProductoModel;
 
-class ProductoController extends BaseController{
+class ProductoController extends BaseController {
 
     protected $productoModel;
 
-    function __construct(){
+    public function __construct() {
         $this->productoModel = new ProductoModel();
     }
 
-    // Lista de productos (VIEW)
-    public function index(){
+    // Mostrar todos los productos
+    public function index() {
         $productos = $this->productoModel->findAll();
 
-        $data = array(
-            "productos" => $productos
-        );
+        $data = [
+            'productos' => $productos
+        ];
 
-        return view("productos/index", $data);
+        return view('productos/index', $data);
     }
 
-    // Información de un producto (VIEW)
-    public function show($id){
-        $producto = $this->productoModel->find($id);
-
-        $data = array("producto" => $producto);
-
-        return view("productos/show", $data);
+    // Mostrar formulario para crear producto
+    public function create() {
+        return view('productos/create');
     }
 
-    // Formulario para crear un producto (VIEW)
-    public function create(){
-        return view("productos/create");
-    }
-
-    // Guardar producto en la base de datos (redirect -> index)
-    public function store(){
-        $file = $this->request->getFile("imagen");
-        if ($file && $file->isValid()) {
-            $imageName = $file->getRandomName();
-            $file->move(WRITEPATH . 'uploads', $imageName);
-        }
-
-        $data = array(
-            "Nombre" => $this->request->getPost("nombre"),
-            "Descripcion" => $this->request->getPost("descripcion"),
-            "Precio" => $this->request->getPost("precio"),
-            "Imagen" => isset($imageName) ? $imageName : null,
-            "usuario_id" => $this->request->getPost("usuario_id")
-        );
+    // Guardar nuevo producto
+    public function store() {
+        $data = [
+            'nombre' => $this->request->getPost('nombre'),
+            'descripcion' => $this->request->getPost('descripcion'),
+            'precio' => $this->request->getPost('precio'),
+            'imagen' => $this->request->getPost('imagen'),
+            'usuario_id' => session()->get('id') // Suponiendo que usas sesión para obtener el ID de usuario
+        ];
 
         $this->productoModel->save($data);
-
-        return redirect()->to("/productos");
+        return redirect()->to('/productos');
     }
 
-    // Formulario para editar un producto (VIEW)
-    public function edit($id){
+    // Mostrar formulario para editar un producto
+    public function edit($id) {
         $producto = $this->productoModel->find($id);
 
-        $data = array(
-            "producto" => $producto
-        );
+        $data = [
+            'producto' => $producto
+        ];
 
-        return view("productos/edit", $data);
+        return view('productos/edit', $data);
     }
 
-    // Actualizar producto (redirect -> view)
-    public function update($id){
-        $file = $this->request->getFile("imagen");
-        if ($file && $file->isValid()) {
-            $imageName = $file->getRandomName();
-            $file->move(WRITEPATH . 'uploads', $imageName);
-        }
-
-        $data = array(
-            "Nombre" => $this->request->getPost("nombre"),
-            "Descripcion" => $this->request->getPost("descripcion"),
-            "Precio" => $this->request->getPost("precio"),
-            "Imagen" => isset($imageName) ? $imageName : null,
-            "usuario_id" => $this->request->getPost("usuario_id")
-        );
+    // Actualizar producto
+    public function update($id) {
+        $data = [
+            'nombre' => $this->request->getPost('nombre'),
+            'descripcion' => $this->request->getPost('descripcion'),
+            'precio' => $this->request->getPost('precio'),
+            'imagen' => $this->request->getPost('imagen')
+        ];
 
         $this->productoModel->update($id, $data);
-
         return redirect()->to("/productos/$id");
     }
 
-    // Eliminar un producto de la base de datos (redirect -> index)
-    public function delete($id){
+    // Eliminar producto
+    public function delete($id) {
         $this->productoModel->delete($id);
-        return redirect()->to("/productos");
+        return redirect()->to('/productos');
+    }
+
+    // Mostrar detalles de un producto
+    public function show($id) {
+        $producto = $this->productoModel->find($id);
+
+        $data = [
+            'producto' => $producto
+        ];
+
+        return view('productos/show', $data);
     }
 }
