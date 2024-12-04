@@ -31,10 +31,10 @@ class ProductoController extends BaseController {
     // Guardar nuevo producto
     public function store() {
         $data = [
-            'nombre' => $this->request->getPost('nombre'),
-            'descripcion' => $this->request->getPost('descripcion'),
-            'precio' => $this->request->getPost('precio'),
-            'imagen' => $this->request->getPost('imagen'),
+            'Nombre' => $this->request->getPost('Nombre'),
+            'Descripcion' => $this->request->getPost('Descripcion'),
+            'Precio' => $this->request->getPost('Precio'),
+            'Imagen' => $this->request->getPost('Imagen'),
             'usuario_id' => session()->get('id') // Suponiendo que usas sesión para obtener el ID de usuario
         ];
 
@@ -56,10 +56,10 @@ class ProductoController extends BaseController {
     // Actualizar producto
     public function update($id) {
         $data = [
-            'nombre' => $this->request->getPost('nombre'),
-            'descripcion' => $this->request->getPost('descripcion'),
-            'precio' => $this->request->getPost('precio'),
-            'imagen' => $this->request->getPost('imagen')
+            'Nombre' => $this->request->getPost('Nombre'),
+            'Descripcion' => $this->request->getPost('Descripcion'),
+            'Precio' => $this->request->getPost('Precio'),
+            'Imagen' => $this->request->getPost('Imagen')
         ];
 
         $this->productoModel->update($id, $data);

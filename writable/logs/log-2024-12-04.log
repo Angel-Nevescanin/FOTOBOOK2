@@ -412,3 +412,436 @@ in APPPATH\Views\Productos\index.php on line 33.
  9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
 10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 13:23:13 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: productos]
+in APPPATH\Views\Productos\index.php on line 33.
+ 1 APPPATH\Views\Productos\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('productos/index', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(23): view('productos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 13:23:14 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: productos]
+in APPPATH\Views\Productos\index.php on line 33.
+ 1 APPPATH\Views\Productos\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('productos/index', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(23): view('productos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 13:23:20 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: productos]
+in APPPATH\Views\Productos\index.php on line 33.
+ 1 APPPATH\Views\Productos\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('productos/index', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(23): view('productos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 13:23:21 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: productos]
+in APPPATH\Views\Productos\index.php on line 33.
+ 1 APPPATH\Views\Productos\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('productos/index', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(23): view('productos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 13:23:21 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: productos]
+in APPPATH\Views\Productos\index.php on line 33.
+ 1 APPPATH\Views\Productos\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('productos/index', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(23): view('productos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 13:25:21 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: productos]
+in APPPATH\Views\Productos\index.php on line 33.
+ 1 APPPATH\Views\Productos\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('productos/index', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(23): view('productos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 13:25:22 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: productos]
+in APPPATH\Views\Productos\index.php on line 33.
+ 1 APPPATH\Views\Productos\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('productos/index', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(23): view('productos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 13:25:22 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: productos]
+in APPPATH\Views\Productos\index.php on line 33.
+ 1 APPPATH\Views\Productos\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('productos/index', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(23): view('productos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 13:25:23 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: productos]
+in APPPATH\Views\Productos\index.php on line 33.
+ 1 APPPATH\Views\Productos\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('productos/index', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(23): view('productos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 13:25:23 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: productos]
+in APPPATH\Views\Productos\index.php on line 33.
+ 1 APPPATH\Views\Productos\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('productos/index', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(23): view('productos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 13:25:23 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: productos]
+in APPPATH\Views\Productos\index.php on line 33.
+ 1 APPPATH\Views\Productos\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('productos/index', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(23): view('productos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 13:25:24 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: productos]
+in APPPATH\Views\Productos\index.php on line 33.
+ 1 APPPATH\Views\Productos\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('productos/index', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(23): view('productos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 13:25:24 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: productos]
+in APPPATH\Views\Productos\index.php on line 33.
+ 1 APPPATH\Views\Productos\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('productos/index', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(23): view('productos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 13:25:24 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: productos]
+in APPPATH\Views\Productos\index.php on line 33.
+ 1 APPPATH\Views\Productos\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('productos/index', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(23): view('productos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 13:25:25 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: productos]
+in APPPATH\Views\Productos\index.php on line 33.
+ 1 APPPATH\Views\Productos\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('productos/index', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(23): view('productos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 13:30:28 --> ErrorException: Undefined array key "descripcion"
+[Method: GET, Route: productos]
+in APPPATH\Views\Productos\index.php on line 34.
+ 1 APPPATH\Views\Productos\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "descripcion"', 'C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('productos/index', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(24): view('productos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 13:30:29 --> ErrorException: Undefined array key "descripcion"
+[Method: GET, Route: productos]
+in APPPATH\Views\Productos\index.php on line 34.
+ 1 APPPATH\Views\Productos\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "descripcion"', 'C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('productos/index', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(24): view('productos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 13:30:59 --> ErrorException: Undefined array key "descripcion"
+[Method: GET, Route: productos]
+in APPPATH\Views\Productos\index.php on line 34.
+ 1 APPPATH\Views\Productos\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "descripcion"', 'C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('productos/index', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(24): view('productos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 13:31:01 --> ErrorException: Undefined array key "descripcion"
+[Method: GET, Route: productos]
+in APPPATH\Views\Productos\index.php on line 34.
+ 1 APPPATH\Views\Productos\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "descripcion"', 'C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('productos/index', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(24): view('productos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 13:31:09 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: productos]
+in APPPATH\Views\Productos\index.php on line 33.
+ 1 APPPATH\Views\Productos\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('productos/index', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(23): view('productos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 13:32:12 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: productos]
+in APPPATH\Views\Productos\index.php on line 33.
+ 1 APPPATH\Views\Productos\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('productos/index', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(23): view('productos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 13:32:13 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: productos]
+in APPPATH\Views\Productos\index.php on line 33.
+ 1 APPPATH\Views\Productos\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('productos/index', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(23): view('productos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 13:32:13 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: productos]
+in APPPATH\Views\Productos\index.php on line 33.
+ 1 APPPATH\Views\Productos\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('productos/index', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(23): view('productos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 13:42:35 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: productos]
+in APPPATH\Views\Productos\index.php on line 33.
+ 1 APPPATH\Views\Productos\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('productos/index', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(23): view('productos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 13:42:36 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: productos]
+in APPPATH\Views\Productos\index.php on line 33.
+ 1 APPPATH\Views\Productos\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('productos/index', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(23): view('productos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 13:45:30 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: productos]
+in APPPATH\Views\Productos\index.php on line 33.
+ 1 APPPATH\Views\Productos\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('productos/index', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(23): view('productos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 13:45:31 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: productos]
+in APPPATH\Views\Productos\index.php on line 33.
+ 1 APPPATH\Views\Productos\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('productos/index', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(23): view('productos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 13:46:46 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: productos]
+in APPPATH\Views\Productos\index.php on line 33.
+ 1 APPPATH\Views\Productos\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('productos/index', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(23): view('productos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 13:50:33 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: productos]
+in APPPATH\Views\Productos\index.php on line 33.
+ 1 APPPATH\Views\Productos\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('productos/index', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(23): view('productos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 13:59:07 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/plantilla.php"
+[Method: GET, Route: productos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/plantilla.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/plantilla', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('productos/index', [], true)
+ 4 APPPATH\Controllers\ProductoController.php(23): view('productos/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 14:09:59 --> ErrorException: Undefined array key "updated_at"
+[Method: GET, Route: productos/1]
+in APPPATH\Views\Productos\show.php on line 23.
+ 1 APPPATH\Views\Productos\show.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "updated_at"', 'C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\show.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\fotobook\\app\\Views\\Productos\\show.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('productos/show', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(83): view('productos/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductoController->show('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

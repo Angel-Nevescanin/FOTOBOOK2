@@ -1,5 +1,5 @@
 <!-- app/Views/productos/index.php -->
-<?php $this->extend("layouts/plantilla"); ?>
+<?php $this->extend("plantilla"); ?>
 
 <?php $this->section("titulo"); ?>
 Productos
@@ -29,10 +29,10 @@ Productos
                 <tbody>
                     <?php foreach ($productos as $producto): ?>
                         <tr class="align-middle">
-                            <td><?= $producto['id']; ?></td>
-                            <td><?= $producto['nombre']; ?></td>
-                            <td><?= $producto['descripcion']; ?></td>
-                            <td><?= $producto['precio']; ?></td>
+                            <td><?= $producto["id"]; ?></td>
+                            <td><?= $producto["Nombre"]; ?></td>
+                            <td><?= $producto["Descripcion"]; ?></td>
+                            <td><?= $producto["Precio"]; ?></td>
                             <td>
                                 <!-- Botón para editar el producto -->
                                 <a href="<?= base_url("/productos/{$producto['id']}/edit"); ?>" class="btn btn-primary btn-sm">
