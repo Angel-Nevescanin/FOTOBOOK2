@@ -2,14 +2,14 @@
 
 namespace App\Controllers;
 
-use App\models\UsuarioModel;
+use App\Models\UsuarioModel;
 
 class UsuarioController extends BaseController{
 
     protected $usuarioModel;
 
     function __construct(){
-        $this->usuarioModel= new UsuarioModel();
+        $this->usuarioModel = new UsuarioModel();
     }
 
     //normalmente esta lista de usuarios (VIEW)
