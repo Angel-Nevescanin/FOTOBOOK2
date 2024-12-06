@@ -38,13 +38,24 @@ class ProductoController extends BaseController {
 
     // Guardar un nuevo producto
     public function store() {
-        $data = array (
+        // Validar los datos del formulario
+        if (!$this->validate([
+            'Nombre' => 'required',
+            'Descripcion' => 'required',
+            'Precio' => 'required|decimal',
+            'Imagen' => 'is_image[Imagen]|max_size[Imagen,2048]' // Asegúrate de que sea una imagen y no pese más de 2MB
+        ])) {
+            // Si la validación falla, redirige de vuelta con los errores y los datos ingresados
+            return redirect()->back()->withInput()->with('errors', $this->validator->getErrors());
+        }
+    
+        // Recopilar los datos del formulario
+        $data = array(
             'Nombre' => $this->request->getPost('Nombre'),
             'Descripcion' => $this->request->getPost('Descripcion'),
             'Precio' => $this->request->getPost('Precio'),
-            'Imagen' => null, // Agregar imagen aquí
-            'usuario_id' => session()->get('id') // Usuario actual
-    );
+            'Imagen' => null, // Imagen aún no se ha procesado
+        );
     
         // Manejar subida de imagen
         $imagen = $this->request->getFile('Imagen');
@@ -54,10 +65,12 @@ class ProductoController extends BaseController {
             $data['Imagen'] = $newName;
         }
     
+        // Guardar el nuevo producto
         if (!$this->productoModel->save($data)) {
             return redirect()->back()->with('errors', $this->productoModel->errors());
         }
     
+        // Redirigir a la lista de productos después de guardar
         return redirect()->to('/productos')->with('success', 'Producto creado correctamente.');
     }
     
@@ -76,36 +89,37 @@ class ProductoController extends BaseController {
     // Actualizar producto
     public function update($id) {
         $producto = $this->productoModel->find($id);
-
+    
         if (!$producto) {
             return redirect()->to('/productos')->with('error', 'Producto no encontrado.');
         }
-
+    
         $data = [
             'Nombre' => $this->request->getPost('Nombre'),
             'Descripcion' => $this->request->getPost('Descripcion'),
             'Precio' => $this->request->getPost('Precio'),
         ];
-
+    
         // Manejo de imagen
         $imagen = $this->request->getFile('Imagen');
         if ($imagen && $imagen->isValid()) {
             $newName = $imagen->getRandomName();
             $imagen->move('uploads/', $newName);
             $data['Imagen'] = $newName;
-
+    
             // Eliminar la imagen anterior
             if (!empty($producto['Imagen']) && file_exists('uploads/' . $producto['Imagen'])) {
                 unlink('uploads/' . $producto['Imagen']);
             }
         }
-
+    
         if (!$this->productoModel->update($id, $data)) {
             return redirect()->back()->with('errors', $this->productoModel->errors());
         }
-
+    
         return redirect()->to('/productos')->with('success', 'Producto actualizado correctamente.');
     }
+    
 
     // Eliminar producto
     public function delete($id) {

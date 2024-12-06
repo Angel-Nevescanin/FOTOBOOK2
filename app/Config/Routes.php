@@ -32,12 +32,13 @@ $routes->get('/logout', 'UsuarioController::logout'); // cerrar sesión
 
 // Rutas para PRODUCTOS
 $routes->get('/productos', 'ProductoController::index'); 
+$routes->get('/productos/(:num)', 'ProductoController::show/$1');
 $routes->get('/productos/create', 'ProductoController::create');
 $routes->post('/productos/store', 'ProductoController::store');
 $routes->get('/productos/(:num)/edit', 'ProductoController::edit/$1');
 $routes->post('/productos/(:num)/update', 'ProductoController::update/$1');
 $routes->get('/productos/(:num)/delete', 'ProductoController::delete/$1');
-$routes->get('/productos/(:num)', 'ProductoController::show/$1');
+
 
 
 

@@ -14,35 +14,30 @@ Nuevo Producto
             <h3 class="card-litle">Lista de productos</h3>
         </div>
         <div class="card-body">
-            <form action="/productos/store" method="POST" name="productoForm" enctype="multipart/form-data">
+        <form action="/productos/store" method="POST" name="productoForm" enctype="multipart/form-data">
+    <div class="mb-3">
+        <label class="form-label" for="Nombre">Nombre</label>
+        <input class="form-control" type="text" name="Nombre" required>
+    </div>
 
-                <div class="mb-3">
-                    <label class="form-label" for="nombre">Nombre</label>
-                    <input class="form-control" type="text" name="nombre" required>
-                </div>
+    <div class="mb-3">
+        <label class="form-label" for="Descripcion">Descripcion</label>
+        <textarea class="form-control" name="Descripcion" required></textarea>
+    </div>
 
-                <div class="mb-3">
-                    <label class="form-label" for="descripcion">Descripcion</label>
-                    <textarea class="form-control" name="descripcion" required></textarea>
-                </div>
+    <div class="mb-3">
+        <label class="form-label" for="Precio">Precio</label>
+        <input class="form-control" type="number" step="0.01" name="Precio" required>
+    </div>
 
-                <div class="mb-3">
-                    <label class="form-label" for="precio">Precio</label>
-                    <input class="form-control" type="number" step="0.01" name="precio" required>
-                </div>
+    <div class="mb-3">
+        <label class="form-label" for="Imagen">Imagen</label>
+        <input class="form-control" type="file" name="Imagen" accept="image/*" required>
+    </div>
 
-                <div class="mb-3">
-                    <label class="form-label" for="imagen">Imagen</label>
-                    <input class="form-control" type="file" name="imagen" required>
-                </div>
+    <button class="btn btn-success" type="submit">Crear Producto</button>
+</form>
 
-                <div class="mb-3">
-                    <label class="form-label" for="producto_id"></label>
-                    <input class="form-control" type="hidden" name="producto_id" value="1">
-                </div>
-
-                <button class="btn btn-success" type="submit">Crear Producto</button>
-            </form>
         </div>
     </div>
 </section>
