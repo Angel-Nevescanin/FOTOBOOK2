@@ -55,6 +55,7 @@ class ProductoController extends BaseController {
             'Descripcion' => $this->request->getPost('Descripcion'),
             'Precio' => $this->request->getPost('Precio'),
             'Imagen' => null, // Imagen aún no se ha procesado
+            'usuario_id' => 1 // Asignar un usuario predeterminado (por ejemplo, el usuario con id=1)
         );
     
         // Manejar subida de imagen
@@ -73,6 +74,7 @@ class ProductoController extends BaseController {
         // Redirigir a la lista de productos después de guardar
         return redirect()->to('/productos')->with('success', 'Producto creado correctamente.');
     }
+    
     
 
     // Mostrar formulario de edición
