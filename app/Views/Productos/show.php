@@ -18,7 +18,7 @@ Detalle del Producto
                 <li><b>Nombre:</b> <?= $producto["Nombre"]; ?></li>
                 <li><b>Descripción:</b> <?= $producto["Descripcion"]; ?></li>
                 <li><b>Precio:</b> <?= number_format($producto["Precio"], 2); ?> USD</li>
-                <li><b>Creado por Usuario ID:</b> <?= $producto["usuario_id"]; ?></li>       
+     
                 <li>
                     <b>Imagen:</b><br>
                     <?php if ($producto["Imagen"]): ?>
