@@ -1,0 +1,1 @@
+__ci_last_regenerate|i:1733455334;errors|a:3:{s:6:"Nombre";s:38:"El nombre del producto es obligatorio.";s:6:"Precio";s:38:"El precio del producto es obligatorio.";s:10:"usuario_id";s:33:"El ID del usuario es obligatorio.";}__ci_vars|a:1:{s:6:"errors";s:3:"new";}

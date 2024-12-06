@@ -24,8 +24,9 @@ Editar Producto
 
                 <div class="mb-3">
                     <label class="form-label" for="Descripcion">Descripción</label>
-                    <textarea class="form-control" name="descripcion" rows="4" required><?= $producto["Descripcion"]; ?></textarea>
+                    <textarea class="form-control" name="descripcion" required><?= $producto["Descripcion"]; ?></textarea>
                 </div>
+
 
                 <div class="mb-3">
                     <label class="form-label" for="Precio">Precio</label>

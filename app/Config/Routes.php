@@ -31,12 +31,15 @@ $routes->post('/usuarios', 'UsuarioController::validarLogin'); // control
 $routes->get('/logout', 'UsuarioController::logout'); // cerrar sesión
 
 // Rutas para PRODUCTOS
-$routes->get('/productos', 'ProductoController::index'); // Listar productos
-$routes->get('/productos/create', 'ProductoController::create'); // Crear producto
-$routes->post('/productos/store', 'ProductoController::store'); // Guardar producto
-$routes->get('/productos/(:num)/edit', 'ProductoController::edit/$1'); // Editar producto
-$routes->post('/productos/(:num)/update', 'ProductoController::update/$1'); // Actualizar producto
-$routes->get('/productos/(:num)/delete', 'ProductoController::delete/$1'); // Eliminar producto
-$routes->get('/productos/(:num)', 'ProductoController::show/$1'); // Ver detalles del producto
+$routes->get('/productos', 'ProductoController::index'); 
+$routes->get('/productos/create', 'ProductoController::create');
+$routes->post('/productos/store', 'ProductoController::store');
+$routes->get('/productos/(:num)/edit', 'ProductoController::edit/$1');
+$routes->post('/productos/(:num)/update', 'ProductoController::update/$1');
+$routes->get('/productos/(:num)/delete', 'ProductoController::delete/$1');
+$routes->get('/productos/(:num)', 'ProductoController::show/$1');
+
+
+
 
 $routes->get('/plantilla', 'Home::plantilla'); // Ruta para plantilla

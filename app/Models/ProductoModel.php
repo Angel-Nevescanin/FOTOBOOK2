@@ -5,24 +5,23 @@ namespace App\Models;
 use CodeIgniter\Model;
 
 class ProductoModel extends Model {
+    protected $table = "productos"; // Nombre de la tabla
+    protected $primaryKey = "id";   // Llave primaria
 
-    protected $table = "productos"; // Nombre de la tabla en la base de datos
-    protected $primaryKey = "id";   // Llave primaria de la tabla
-
-    // Campos que pueden ser insertados o actualizados
+    // Campos permitidos para insertar o actualizar
     protected $allowedFields = ["Nombre", "Descripcion", "Precio", "Imagen", "usuario_id"];
 
-    // Habilitar marcas de tiempo automáticas
+    // Timestamps automáticos
     protected $useTimestamps = true;
-    protected $createdField = "created_at";
-    protected $updatedField = "updated_at";
+    protected $createdField = "created_at"; // Campo de creación
+    protected $updatedField = "update_at"; // Campo de actualización
 
-    // Opcional: Validaciones para los campos
+    // Reglas de validación
     protected $validationRules = [
         "Nombre" => "required|min_length[3]|max_length[255]",
         "Descripcion" => "permit_empty|max_length[500]",
         "Precio" => "required|decimal|greater_than[0]",
-        "Imagen" => "permit_empty|string|max_length[255]",
+        "Imagen" => "permit_empty|string|max_length[256]",
         "usuario_id" => "required|integer"
     ];
 
@@ -43,3 +42,4 @@ class ProductoModel extends Model {
         ]
     ];
 }
+

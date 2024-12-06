@@ -11,10 +11,10 @@ Nuevo Producto
 <section class="row">
     <div class="col-12 card">
         <div class="card-header">
-            <h3 class="card-little">Lista de productos</h3>
+            <h3 class="card-litle">Lista de productos</h3>
         </div>
         <div class="card-body">
-            <form action=/productos/store method="POST" name="productoForm" >
+            <form action="/productos/store" method="POST" name="productoForm" enctype="multipart/form-data">
 
                 <div class="mb-3">
                     <label class="form-label" for="nombre">Nombre</label>
@@ -25,26 +25,26 @@ Nuevo Producto
                     <label class="form-label" for="descripcion">Descripcion</label>
                     <textarea class="form-control" name="descripcion" required></textarea>
                 </div>
-                 
+
                 <div class="mb-3">
-                    <label class="form-label" for="nombre">Precio</label>
+                    <label class="form-label" for="precio">Precio</label>
                     <input class="form-control" type="number" step="0.01" name="precio" required>
                 </div>
-                 
-                 <div class="mb-3">
-                     <label class="form-label" for="nombre">Imagen</label>
-                     <input class="form-control" type="file" name="imagen" required>
-                 </div>
-                 
-                 <div class="mb-3">
-                     <label class="form-label" for="nombre"></label>
-                     <input class="form-control" type="hidden" name="producto_id" value="1">
-                 </div>
 
-                <button class="btn btn-success" type="submit"> Crear Producto </button>
+                <div class="mb-3">
+                    <label class="form-label" for="imagen">Imagen</label>
+                    <input class="form-control" type="file" name="imagen" required>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label" for="producto_id"></label>
+                    <input class="form-control" type="hidden" name="producto_id" value="1">
+                </div>
+
+                <button class="btn btn-success" type="submit">Crear Producto</button>
             </form>
         </div>
     </div>
 </section>
 
-<?php $this->endSection("content"); //aqui termina el contenido ?>
+<?php $this->endSection("content"); //aqui termina el contenido?>
