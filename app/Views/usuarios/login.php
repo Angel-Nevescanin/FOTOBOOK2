@@ -19,17 +19,18 @@
             <div class="col-md-4">
                 <h3 class="text-center mb-4">Iniciar Sesión</h3>
                 <!-- Formulario de inicio de sesión -->
-                <form action="<?= base_url('/login'); ?>" method="post">
-                    <div class="mb-3">
-                        <label for="email" class="form-label">Correo electrónico</label>
-                        <input type="email" name="email" id="email" class="form-control" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="password" class="form-label">Contraseña</label>
-                        <input type="password" name="password" id="password" class="form-control" required>
-                    </div>
-                    <button type="submit" class="btn btn-success w-100">Iniciar sesión</button>
-                </form>
+                <form action="<?= base_url('/validar-login'); ?>" method="post">
+    <div class="mb-3">
+        <label for="email" class="form-label">Correo electrónico</label>
+        <input type="email" name="email" id="email" class="form-control" required>
+    </div>
+    <div class="mb-3">
+        <label for="password" class="form-label">Contraseña</label>
+        <input type="password" name="password" id="password" class="form-control" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+</form>
+
             </div>
         </div>
     </div>

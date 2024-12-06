@@ -14,36 +14,44 @@ class UsuarioController extends BaseController{
 
     public function login()
     {
-        return view('login');  // Asegúrate de que esta vista sea la que contiene el formulario.
+        return view('app/Views/login.php');
     }
+    
 
     public function validarLogin()
     {
+        // Validación básica usando el validador de CodeIgniter
+        if (!$this->validate([
+            'email'    => 'required|valid_email',
+            'password' => 'required|min_length[6]'
+        ])) {
+            // Si la validación falla, redirige con el error
+            return redirect()->to('/login')->with('error', 'Correo y contraseña son requeridos');
+        }
+    
         // Obtener datos del formulario
         $email = $this->request->getPost('email');
         $password = $this->request->getPost('password');
         
-        // Validación básica (puedes agregar más validación aquí)
-        if (!$email || !$password) {
-            return redirect()->to('/login')->with('error', 'Correo y contraseña son requeridos');
-        }
-
         // Instanciar el modelo de usuario
         $model = new UsuarioModel();
-
-        // Verificar si el usuario existe y la contraseña es correcta
+    
+        // Verificar si el usuario existe
         $usuario = $model->where('email', $email)->first();
-
+    
         if ($usuario && password_verify($password, $usuario['password'])) {
-            // Establecer sesión (deberías tener configurado un sistema de sesión)
+            // Establecer sesión
             session()->set('is_logged_in', true);
             session()->set('nombre', $usuario['nombre']);
+            session()->set('user_id', $usuario['id']);  // Puedes almacenar más información si es necesario
             
             return redirect()->to('/');  // Redirige a la página de inicio o dashboard
         } else {
+            // Si las credenciales no son correctas
             return redirect()->to('/login')->with('error', 'Credenciales inválidas');
         }
     }
+    
 
     //normalmente esta lista de usuarios (VIEW)
     public function index (){

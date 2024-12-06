@@ -25,8 +25,10 @@ $routes->post('/usuarios/store', 'UsuarioController::store');
 $routes->get('/usuarios/(:num)/edit', 'UsuarioController::edit/$1');
 $routes->post('/usuarios/(:num)/update', 'UsuarioController::update/$1');
 $routes->get('/usuarios/(:num)/delete', 'UsuarioController::delete/$1');
-$routes->get('/login', 'UsuarioController::login');  // Mostrar formulario
-$routes->post('/login', 'UsuarioController::validarLogin');  // Procesar login
+$routes->get('/login', 'UsuarioController::login');
+$routes->post('/validar-login', 'UsuarioController::validarLogin');
+
+
 
 
 

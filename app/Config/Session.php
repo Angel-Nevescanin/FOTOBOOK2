@@ -8,6 +8,7 @@ use CodeIgniter\Session\Handlers\FileHandler;
 
 class Session extends BaseConfig
 {
+    
     /**
      * --------------------------------------------------------------------------
      * Session Driver
